@@ -7,10 +7,10 @@ Config.stageCols = 6; // ステージの横の個数
 Config.stageRows = 12; // ステージの縦の個数
 // フィールドサイズ追加
 // 高さが全部入るように調整
-Config.puyoImgHeight = (window.innerHeight-Config.fontHeight)/Config.stageRows
+Config.puyoImgHeight = (window.innerHeight - Config.fontHeight) / Config.stageRows;
 Config.puyoImgWidth = Config.puyoImgHeight;
-Config.stageBackgroundColor = '#ffffff'; // ステージの背景色
-Config.scoreBackgroundColor = '#24c0bb'; // スコアの背景色
+Config.stageBackgroundColor = "#ffffff"; // ステージの背景色
+Config.scoreBackgroundColor = "#24c0bb"; // スコアの背景色
 Config.freeFallingSpeed = 16; // 自由落下のスピード
 Config.erasePuyoCount = 4; // 何個以上揃ったら消えるか
 Config.eraseAnimationDuration = 30; // 何フレームでぷよを消すか
